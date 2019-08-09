@@ -242,7 +242,6 @@ footer nav a {
 	align-content: center;
 	padding: 50px;
 	flex-direction: column;
-    border: 1px solid red;
 }
 .header{
         width: 960px;
