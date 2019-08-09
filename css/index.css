@@ -235,32 +235,44 @@ footer nav a {
     text-decoration: none;
 }
 .parent-container{
-	display: flex;
-	width: 900px;
-	margin: auto;
-	align-items: center;
-	align-content: center;
-	padding: 50px;
-	flex-direction: column;
-}
-.header{
-        width: 960px;
-        max-width: 100%;
-        padding: 20px;
-        margin: 0 auto;
-}
-.nav{
     display: flex;
-    width: 100%;
-    flex-flow: row wrap;
-	justify-content: space-between;
-    display: block;
-    background-color: black;
-    text-align: center;
-    padding: 10px 12px;
-	text-decoration: none;
-    font-size: 25px;
+    width: 900px;
+    margin: auto;
+    align-content: center;
+    padding: 50px;
+    flex-direction: column;
 }
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 20%;
+  }
+  .image-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: left;
+    align-self: left;
+    margin-left: 0;
+    margin-right: 5%;
+    width: 30%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-self: right;
+    margin-left: 10%;
+    margin-right: 0%;
+    align-items: center;
+    text-align: right;
+    width: 70%;
+  }
     .image{
         display: flexbox;
         align-items: flex-end;
